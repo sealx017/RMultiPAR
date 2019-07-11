@@ -1,4 +1,5 @@
-##Description
+**Description
+
 RMultiPAR (Rapid Multiple Phenotypes Association analysis in Related individuals) uses a two-stage approach to test the association of multiple continuous phenotypes with a single genetic marker in families or distantly related individuals. The R function rmultipar implements this association test. 
 For details of this statistical method, please refer/cite:
 Souvik S., Saonli B., "Multivariate Association Analysis with Correlated Traits in Families or Distantly Related Individuals".
@@ -12,6 +13,7 @@ Family data; Distantly related individuals; Genetic similarity matrix; UK Bioban
 3. A covariates file(cov.csv) with single or multiple covariates.
 4. A snp data file(snp.csv) which has (0/1/2) values. 
 5. A kinship matrix/GRM(G.csv) which is pre-computed either using known familial relations or using SNPs.
+
 ***Order of the individuals should be the same in all the files. Missing values(NA) are not currently supported.
 
 #Functions explained
