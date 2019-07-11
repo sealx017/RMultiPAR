@@ -5,10 +5,9 @@ RMultiPAR (Rapid Multiple Phenotypes Association analysis in Related individuals
 For details of this statistical method, please refer/cite:
 Souvik S., Saonli B., "Multivariate Association Analysis with Correlated Traits in Families or Distantly Related Individuals".
 ### Keywords:
-Multivariate multiple linear regression; Linear mixed model; Feasible generalized least square; Seemingly unrelated regression; Multiple phenotypes; 
-Family data; Distantly related individuals; Genetic similarity matrix; UK Biobank data.
+Multivariate multiple linear regression; Linear mixed model; Feasible generalized least square; Seemingly unrelated regression; Multiple phenotypes; Family data; Distantly related individuals; Genetic similarity matrix; UK Biobank data.
 
-# ---------------------------Instructions to run RMultiPAR------------------------------
+# Instructions to run RMultiPAR
 ## Files Required
 1. A phenotype file(phen.csv) which contains multiple phenotypes(columns) over different individuals(rows).
 2. An ID file(ID.csv) carrying the IDs corresponding to the individuals.
@@ -18,12 +17,13 @@ Family data; Distantly related individuals; Genetic similarity matrix; UK Bioban
 
 ***Order of the individuals should be the same in all the files. Missing values(NA) are not currently supported.
 
+## Packages required
+R (>=3.5.0). GENESIS, systemfit(The function rmultipar includes commands to install them).
+
 ## Functions explained
 RMultiPAR involves two steps: 
 1)Fitting independent LMMs (done by the function genesis)
 2)Fitting a seemingly unrelated regression model (done by the function sur)
 The function rmultipar installs the necessary packages, reads the data, loads the above two functions and performs
-RMultiPAR providing a chi-square test statistic value, p value and degress of freedom.
+RMultiPAR providing a chi-square test statistic value, p value and the degress of freedom.
 
-## Packages needed to be installed
-R (>=3.5.0). GENESIS, systemfit(The function rmultipar includes commands to install them) . 
