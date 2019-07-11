@@ -10,16 +10,16 @@ Multivariate multiple linear regression; Linear mixed model; Feasible generalize
 
 # Instructions to run RMultiPAR
 ## Files Required
-1. A phenotype file(phen.csv) which contains multiple phenotypes(columns) over different individuals(rows).
-2. An ID file(ID.csv) carrying the IDs corresponding to the individuals.
-3. A covariates file(cov.csv) with single or multiple covariates.
-4. A snp data file(snp.csv) which has (0/1/2) values. 
-5. A kinship matrix/GRM(G.csv) which is pre-computed either using known familial relations or using SNPs.
+1. A phenotype file (phen.csv) which contains multiple phenotypes(columns) over different individuals(rows).
+2. An ID file (ID.csv) carrying the IDs corresponding to the individuals.
+3. A covariates file (cov.csv) with single or multiple covariates.
+4. A snp data file (snp.csv) which has (0/1/2) values. 
+5. A kinship matrix/GRM (G.csv) which is pre-computed either using known familial relations or using SNPs.
 
 ***Order of the individuals should be the same in all the files. Missing values(NA) are not currently supported.
 
 ## Packages required
-R (>=3.5.0). GENESIS, systemfit(The function rmultipar includes commands to install them).
+R (>=3.5.0). GENESIS, systemfit (The function rmultipar includes commands to install them).
 
 ## Functions explained
 RMultiPAR involves two steps: 
