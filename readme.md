@@ -16,7 +16,7 @@ Multivariate multiple linear regression; Linear mixed model; Feasible generalize
 4. A snp data file (snp.csv) which has (0/1/2) values. 
 5. A kinship matrix/GRM (G.csv) which is pre-computed either using known familial relations or using SNPs.
 
-***Order of the individuals should be the same in all the files. Missing values(NA) are not currently supported.
+*Order of the individuals should be the same in all the files. Missing values (NA) are not currently supported.
 
 ## Packages required
 R (>=3.5.0). GENESIS, systemfit (The function rmultipar includes commands to install them).
