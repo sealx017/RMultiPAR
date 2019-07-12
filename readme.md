@@ -21,12 +21,8 @@ Multivariate multiple linear regression; Linear mixed model; Feasible generalize
 ## Packages required
 R (>=3.5.0). GENESIS, systemfit (The function rmultipar includes commands to install them).
 
-## Functions explained
-RMultiPAR involves two steps: 
-1)Fitting independent LMMs (done by the function genesis)
+## Function explained
+User should create the datasets as mentioned above and place them into the same folder as the functions. Then run only the function rmultipar to get RMultiPAR test statistic value, p value and the degress of freedom. 
 
-2)Fitting a seemingly unrelated regression model (done by the function sur)
-
-The function rmultipar installs the necessary packages, reads the data, loads the above two functions and performs
-RMultiPAR providing a chi-square test statistic value, p value and the degress of freedom.
+*If the user wants to specify custom filenames and file locations, he/she should change the data loading part of the rmultipar funcion accordingly.
 
