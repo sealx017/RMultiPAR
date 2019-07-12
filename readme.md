@@ -16,7 +16,7 @@ Multivariate multiple linear regression; Linear mixed model; Feasible generalize
 4. A snp data file (snp.csv) which has (0/1/2) values. 
 5. A kinship matrix/GRM (G.csv) which is pre-computed either using known familial relations or using SNPs.
 
-*Order of the individuals should be the same in all the files. Missing values (NA) are not currently supported.
+*Order of the individuals should be the same in all the files. Missing values (NA) are not currently supported.*
 
 ## Packages required
 R (>=3.5.0). GENESIS, systemfit (The function rmultipar includes commands to install them).
@@ -24,5 +24,5 @@ R (>=3.5.0). GENESIS, systemfit (The function rmultipar includes commands to ins
 ## Function explained
 User should create the datasets as mentioned above and place them into the same folder as the functions. Then run only the function rmultipar to get RMultiPAR test statistic value, p value and the degress of freedom. 
 
-*If the user wants to specify custom filenames and file locations, he/she should change the data loading part of the rmultipar funcion accordingly.
+*If the user wants to specify custom filenames and file locations, he/she should change the data loading part of the rmultipar funcion accordingly.*
 
