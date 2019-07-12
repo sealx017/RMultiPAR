@@ -24,7 +24,9 @@ R (>=3.5.0). GENESIS, systemfit (The function rmultipar includes commands to ins
 ## Functions explained
 RMultiPAR involves two steps: 
 1)Fitting independent LMMs (done by the function genesis)
+
 2)Fitting a seemingly unrelated regression model (done by the function sur)
+
 The function rmultipar installs the necessary packages, reads the data, loads the above two functions and performs
 RMultiPAR providing a chi-square test statistic value, p value and the degress of freedom.
 
